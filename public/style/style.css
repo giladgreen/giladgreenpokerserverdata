@@ -3207,3 +3207,17 @@ input[type="date"] {
 }
 
 /*  calculatorSection end */
+
+
+/*  new game in progress  */
+/* TODO */
+.blinking{
+    background: red;
+    animation: blinker 1s linear infinite;
+}
+
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
