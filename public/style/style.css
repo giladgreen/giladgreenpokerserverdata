@@ -3207,3 +3207,10 @@ input[type="date"] {
 }
 
 /*  calculatorSection end */
+
+
+/*  new game in progress  */
+/* TODO */
+.blinking{
+    background: red;
+}
