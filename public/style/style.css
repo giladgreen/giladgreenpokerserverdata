@@ -3225,6 +3225,16 @@ input[type="date"] {
     text-transform: none;
     margin-bottom: 10px;
 }
+.activeGameTextSize{
+    font-size: 200%;
+    color: rgb(255, 180, 95);
+    font-weight: bold;
+}
+.activeGameSmallHeaderTextSize{
+    font-size: 230%;
+    color: rgb(211, 131, 39);
+    font-weight: bold;
+}
 .activeGameImage{
     border: 1px solid #CECECE;
     width: 100%;
