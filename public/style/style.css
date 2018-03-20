@@ -3211,17 +3211,15 @@ input[type="date"] {
 
 /*  new game in progress  */
 .activeGameHeader{
-    font-size: 160%;
+    font-size: 130%;
     color: rgb(206, 211, 255);
-    text-transform: none;
-    
+    text-transform: none;  
     margin-top: -20px;
 }
 .activeGameSubHeader{
-    font-size: 140%;
+    font-size: 120%;
     color: rgb(206, 211, 255);
-    text-transform: none;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 }
 .activeGameTextSize{
     font-size: 130%;
@@ -3235,11 +3233,9 @@ input[type="date"] {
 }
 .activeGameImage{
     border: 1px solid #CECECE;
-    width: 100%;
-    max-height: 45px;
+    height: 40px;
     margin-right: 3px;
-    margin-bottom: 2px;
-    
+    margin-bottom: 2px; 
 }
 .positiveBottomLineColor{
     color: green;
