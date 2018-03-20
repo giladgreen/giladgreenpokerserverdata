@@ -3220,7 +3220,7 @@ input[type="date"] {
     margin-top: -20px;
 }
 .activeGameSubHeader{
-    font-size: 220%;
+    font-size: 240%;
     color: rgb(206, 211, 255);
     text-transform: none;
     margin-bottom: 10px;
@@ -3229,7 +3229,12 @@ input[type="date"] {
     border: 1px solid #CECECE;
     width: 100%;
 }
-
+.positiveBottomLineColor{
+    color: green;
+}
+.negativeBottomLineColor{
+    color: red;
+}
 .blinking{
     background: red;
     animation: blinker 1s linear infinite;
