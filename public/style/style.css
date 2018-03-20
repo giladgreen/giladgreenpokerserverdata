@@ -3210,7 +3210,26 @@ input[type="date"] {
 
 
 /*  new game in progress  */
-/* TODO */
+
+
+.activeGameHeader{
+    font-size: 300%;
+    color: rgb(206, 211, 255);
+    text-transform: none;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+.activeGameSubHeader{
+    font-size: 220%;
+    color: rgb(206, 211, 255);
+    text-transform: none;
+    margin-bottom: 10px;
+}
+.activeGameImage{
+    border: 1px solid #CECECE;
+    width: 100%;
+}
+
 .blinking{
     background: red;
     animation: blinker 1s linear infinite;
