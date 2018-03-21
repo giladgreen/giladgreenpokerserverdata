@@ -3238,7 +3238,7 @@ input[type="date"] {
     border: 1px solid #CECECE;
     min-height: 40px;
     margin-right: 3px;
-    margin-bottom: 2px; 
+    margin-bottom: 0.5vh; 
 }
 .positiveBottomLineColor{
     color: green;
