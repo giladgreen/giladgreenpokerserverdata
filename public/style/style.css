@@ -91,8 +91,7 @@ body {
     color: #868F9B;
 }
 #connectedHeaderSection{
-    padding-top: 50px;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
@@ -3236,9 +3235,9 @@ input[type="date"] {
 }
 .activeGameImage{
     border: 1px solid #CECECE;
-    min-height: 40px;
+    height: 40px;
     margin-right: 3px;
-    margin-bottom: 0.5vh; 
+    margin-bottom: 2px; 
 }
 .positiveBottomLineColor{
     color: green;
