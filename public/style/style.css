@@ -3262,16 +3262,16 @@ input[type="date"] {
   @media only screen and (max-width: 767px) {
     .activeGameHeader{
         font-size: 120%;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .activeGameSubHeader{
         font-size: 110%;
-        margin-bottom: 5px;
+        margin-bottom: 0px;
     }
     .activeGameSmallHeaderTextSize{
         font-size: 90%;
-        margin-top:0px;
-        margin-bottom:0px;
+        margin-top:-5px;
+        margin-bottom:-5px;
     }
     .activeGameTextSize{
         font-size: 100%;
