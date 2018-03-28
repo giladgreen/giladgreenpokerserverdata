@@ -3223,12 +3223,12 @@ input[type="date"] {
     margin-bottom: 1px;
 }
 .activeGameTextSize{
-    font-size: 130%;
+    font-size: 120%;
     color: rgb(255, 180, 95);
     font-weight: bold;
 }
 .activeGameSmallHeaderTextSize{
-    font-size: 140%;
+    font-size: 130%;
     color: rgb(211, 131, 39);
     font-weight: bold;
     margin-top:-20px;
@@ -3261,18 +3261,23 @@ input[type="date"] {
 
   @media only screen and (max-width: 767px) {
     .activeGameHeader{
-        font-size: 110%;
+        font-size: 120%;
         margin-top: 20px;
     }
     .activeGameSubHeader{
-        font-size: 100%;
+        font-size: 110%;
         margin-bottom: 5px;
     }
+    .activeGameSmallHeaderTextSize{
+        font-size: 90%;
+        margin-top:0px;
+        margin-bottom:0px;
+    }
     .activeGameTextSize{
-        font-size: 80%;
+        font-size: 100%;
     }
     .activeGamePlayerRow{
-        font-size: 60%;
+        font-size: 99%;
     }
    
   }
