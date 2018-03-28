@@ -58,3 +58,6 @@ typings/
 .env
 
 *.DS_Store
+
+public/images/*.png
+public/images/*.gif
