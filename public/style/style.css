@@ -3250,9 +3250,29 @@ input[type="date"] {
     background: red;
     animation: blinker 1s linear infinite;
 }
-
+.activeGamePlayerRow{
+    font-size: 100%;
+}
   @keyframes blinker {
     50% {
       opacity: 0;
     }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .activeGameHeader{
+        font-size: 110%;
+        margin-top: 20px;
+    }
+    .activeGameSubHeader{
+        font-size: 100%;
+        margin-bottom: 5px;
+    }
+    .activeGameTextSize{
+        font-size: 80%;
+    }
+    .activeGamePlayerRow{
+        font-size: 60%;
+    }
+   
   }
