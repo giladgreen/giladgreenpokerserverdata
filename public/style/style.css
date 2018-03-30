@@ -3218,9 +3218,10 @@ input[type="date"] {
     margin-top: -20px;
 }
 .activeGameSubHeader{
-    font-size: 120%;
+    font-size: 140%;
     color: rgb(206, 211, 255);
     margin-bottom: 1px;
+    font-weight: bold;
 }
 .activeGameTextSize{
     font-size: 120%;
