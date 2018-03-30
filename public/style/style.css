@@ -3253,6 +3253,9 @@ input[type="date"] {
 .activeGamePlayerRow{
     font-size: 100%;
 }
+#gameInProgressNotice{
+    font-size: 130%;
+}
   @keyframes blinker {
     50% {
       opacity: 0;
