@@ -41,7 +41,40 @@ Table OF Contents
 	General
 \*------------------------------------*/
 
-
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button
+  {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+ 
+  
+#gamesCountNumberInput{
+    width: 70px;
+    height: 45px;
+    margin: 0px;
+    font-size: 130%;
+    text-align: center;
+    line-height: 1.7;
+}
+.upDownButton{
+    text-align: center;
+    line-height: 1.2;
+    height: 45px;
+    margin-top:-2px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#SubOneButton{
+    margin-left: 20px;
+}
+#AddOneButton{
+    margin-right: 20px;
+}
+#showCurrentTournamentButton{
+    font-size: 70%;
+}
 /* -- typography -- */
 
 #mainGroupName{
