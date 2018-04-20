@@ -41,40 +41,7 @@ Table OF Contents
 	General
 \*------------------------------------*/
 
-  input[type=number]::-webkit-inner-spin-button,
-  input[type=number]::-webkit-outer-spin-button
-  {
-    -webkit-appearance: none;
-    margin: 0;
-  }
-  
  
-  
-#gamesCountNumberInput{
-    width: 70px;
-    height: 45px;
-    margin: 0px;
-    font-size: 130%;
-    text-align: center;
-    line-height: 1.7;
-}
-.upDownButton{
-    text-align: center;
-    line-height: 1.2;
-    height: 45px;
-    margin-top:-2px;
-    margin-right: 0px;
-    margin-left: 0px;
-}
-#SubOneButton{
-    margin-left: 20px;
-}
-#AddOneButton{
-    margin-right: 20px;
-}
-#showCurrentTournamentButton{
-    font-size: 70%;
-}
 /* -- typography -- */
 
 #mainGroupName{
@@ -2832,7 +2799,7 @@ input[type="date"] {
 }
 .newgameformDiv table tr th{
     border: solid 1px black;
-    padding: 5px 30px 4px 15px;
+    padding: 5px 20px 4px 10px;
     text-align: center; 
 }
 .loginTableItem{
@@ -2915,10 +2882,7 @@ input[type="date"] {
 .editButton{
     margin: 30px 4px;
 }
-.newGameNumberInputs{
-    height: 40px;
-    width:  100px;
-}
+
 .headerLinks{
     cursor: pointer;
 }
@@ -2961,7 +2925,7 @@ input[type="date"] {
         left:2%;
     }
     .playersTable th{
-        font-size: 80%;    
+        font-size: 77%;    
     }
     .newplayerformDiv table tr th{
         border: solid 1px black;
@@ -3318,3 +3282,92 @@ input[type="date"] {
     }
    
   }
+
+
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button
+  {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+ 
+  
+.aNumberInput{
+    min-width: 60px;
+    width: 60px;
+    max-width: 70px;
+    height: 45px;
+    margin: 0px;
+    font-size: 130%;
+    text-align: center;
+    line-height: 1.7;
+
+}
+.bNumberInput{
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.upDownButton{
+    text-align: center;
+    line-height: 1.2;
+    height: 41px;
+   
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+.SubOneButton{
+    margin-top:4px;
+    margin-left: 20px;
+}
+.AddOneButton{
+    margin-top:4px;
+    margin-right: 20px;
+}
+.SubStepButton{
+    margin-left: 0px;
+}
+.AddStepButton{
+    margin-right: 0px;
+}
+#showCurrentTournamentButton{
+    font-size: 70%;
+}
+
+.newgameformDiv table tr th .buyinCashoutWrppingTH{
+    padding: 1px 1px 1px 2px;
+}
+.buyinCashoutWrppingTH{
+    margin:0px;
+    padding: 0px;
+    border: none;
+}
+.buyinCashoutWrppingTH table tr th{
+    margin:0px;
+    padding: 0px;
+    border: none;
+    border-collapse:collapse;
+    border-collapse:collapse;
+    border-spacing: 0;
+}
+
+
+@media screen and (max-width: 500px) {
+    .bNumberInput{
+        min-width: 48px;
+        max-width: 48px;
+    }
+    .upDownButton{
+        min-width: 28px;
+        max-width: 28px;
+    
+    }
+    .SubOneButton{
+        margin-left: 3px;
+    }
+    .AddOneButton{
+        margin-right: 10px;
+    }
+}
