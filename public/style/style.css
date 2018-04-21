@@ -146,6 +146,11 @@ a:hover, a:focus {
     color: #FFF;
 }
 
+.whitish-text {
+    color: rgb(196, 196, 196);
+}
+
+
 ::-moz-selection {
     background-color: #6195FF;
     color: #FFF;
@@ -844,6 +849,9 @@ header {
     color:white;
 }
 .playersBottomLine .black-text{
+    color:black;
+}
+.black-text{
     color:black;
 }
 .gameDataPersonData .positiveBalanceColor{
@@ -3352,7 +3360,12 @@ input[type="date"] {
     border-collapse:collapse;
     border-spacing: 0;
 }
-
+.bluish-back{
+    background: #6397FF;
+}
+#proposalsTable table tr th{
+    background: white;
+}
 
 @media screen and (max-width: 500px) {
     .bNumberInput{
