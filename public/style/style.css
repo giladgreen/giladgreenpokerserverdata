@@ -146,6 +146,11 @@ a:hover, a:focus {
     color: #FFF;
 }
 
+.whitish-text {
+    color: rgb(196, 196, 196);
+}
+
+
 ::-moz-selection {
     background-color: #6195FF;
     color: #FFF;
@@ -844,6 +849,9 @@ header {
     color:white;
 }
 .playersBottomLine .black-text{
+    color:black;
+}
+.black-text{
     color:black;
 }
 .gameDataPersonData .positiveBalanceColor{
@@ -3352,8 +3360,57 @@ input[type="date"] {
     border-collapse:collapse;
     border-spacing: 0;
 }
-
-
+#newProposalDiv{
+    color:white;
+    padding: 20px;
+     border:  2px solid black;
+     border-radius: 11px;
+     background: rgb(0, 19, 58);
+ }
+ 
+.bluish-back{
+    background: #6397FF;
+}
+.bluish-text{
+    color: #6397FF;
+}
+.white-back{
+    background: #fff;
+}
+#proposalsTable table tr th{
+    background: white;
+}
+#proposalsTable .table>thead>tr>th,
+#proposalsTable .table>tbody>tr>th,
+#proposalsTable .table>tfoot>tr>th,
+#proposalsTable .table>thead>tr>td,
+#proposalsTable .table>tbody>tr>td,
+#proposalsTable .table>tfoot>tr>td {
+    padding: 8px 20px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+#proposalsTable .card.host {
+    width: 120px;
+}
+#proposalsTable .card.host img {
+    width: 100%;
+}
+.btn-flex {
+    display: flex;
+    border: 1px solid #6397FF;
+    border-radius: 4px;
+}
+.btn-flex .active {
+    background: #6397FF;
+}
+.proposalSmallImage{
+    max-height: 33px;
+    margin-right:6px; 
+    margin-bottom:4px; 
+}
 @media screen and (max-width: 500px) {
     .bNumberInput{
         min-width: 48px;
