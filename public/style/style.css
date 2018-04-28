@@ -3427,4 +3427,18 @@ input[type="date"] {
     .AddOneButton{
         margin-right: 10px;
     }
+    #proposalsTable{
+        margin:1vw;
+        padding: 10px;
+     }
+    #newProposalDiv{
+       margin:1vw;
+        padding: 13px;
+        width:80vw;
+     }
+    .hostColumn{}
+     .AddressColumn{}
+    .TimeColumn{}
+     .AttendeesColumn{}              
+    .OpColumn    {}
 }
