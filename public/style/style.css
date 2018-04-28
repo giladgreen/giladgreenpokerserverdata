@@ -3436,9 +3436,20 @@ input[type="date"] {
         padding: 13px;
         width:80vw;
      }
-    .hostColumn{}
-     .AddressColumn{}
-    .TimeColumn{}
-     .AttendeesColumn{}              
-    .OpColumn    {}
+    .hostColumn{
+        max-width:15vw;
+
+    }
+    .AddressColumn{
+       max-width:15vw;
+    }
+    .TimeColumn{
+        max-width:15vw;
+    }
+     .AttendeesColumn{
+        max-width:15vw;
+     }              
+    .OpColumn    {
+        max-width:15vw;
+    }
 }
