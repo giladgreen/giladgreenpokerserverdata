@@ -3411,6 +3411,21 @@ input[type="date"] {
     margin-right:6px; 
     margin-bottom:4px; 
 }
+.mobileProposalItem{
+    color: black;
+    background: #C3C3C3;
+    border: 1px solid #6397FF;
+    border-radius: 5px;
+    padding-left:30px;
+    padding-top: 8px;
+    margin-bottom: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.attendeeDiv{
+    padding-left:10px;
+    color: rgb(53, 53, 53);
+}
 @media screen and (max-width: 500px) {
     .bNumberInput{
         min-width: 48px;
@@ -3436,10 +3451,7 @@ input[type="date"] {
         padding: 13px;
         width:80vw;
      }
-    .hostColumn{
-        max-width:15vw;
-
-    }
+    
     .AddressColumn{
        max-width:15vw;
     }
@@ -3451,5 +3463,21 @@ input[type="date"] {
      }              
     .OpColumn    {
         max-width:15vw;
+    }
+    .proposalHostImage{
+        width: 30px;
+        
+    }
+    .proposalMap{
+        visibility:collapse;
+    }
+    #proposalsTable .card.host {
+        width: 30px;
+    }
+    #proposalsTable .card.address {
+        width: 40px;
+    }
+    #proposalsTable .card.time {
+        width: 30px;
     }
 }
