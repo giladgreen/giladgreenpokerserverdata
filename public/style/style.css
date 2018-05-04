@@ -1172,6 +1172,9 @@ header {
     padding: 5px 30px 4px 15px;
     text-align: center;
 }
+.thick-border{
+    border: solid 1px black;
+}
 
 
 .marginTop{
