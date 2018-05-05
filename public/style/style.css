@@ -1162,6 +1162,7 @@ header {
     color: rgb(46, 31, 10);
     padding: 40px 20px;
     border: 1px solid rgb(46, 31, 10);
+    margin: 15px 0px;
 }
 #statisticsHeader{
     color: #39270B;
@@ -1171,18 +1172,8 @@ header {
     padding: 5px 30px 4px 15px;
     text-align: center;
 }
-.thick-border{
-    border: solid 1px black;
-}
-.guestCountButton{
-    height: 42px;
-}
-.plusOneLeftMargin{
-    margin-left: -30px;
-}
-.disabledMnusButton{
-    color: #cacaca;
-}
+
+
 .marginTop{
      margin-top:40px;
 }
@@ -3435,10 +3426,6 @@ input[type="date"] {
     padding-left:10px;
     color: rgb(53, 53, 53);
 }
-.proposalMap{
-    max-width: 200px;
-}
-
 @media screen and (max-width: 500px) {
     .bNumberInput{
         min-width: 48px;
@@ -3492,8 +3479,5 @@ input[type="date"] {
     }
     #proposalsTable .card.time {
         width: 30px;
-    }
-    .InputLeftMargin{
-        margin-left: -30px;
     }
 }
