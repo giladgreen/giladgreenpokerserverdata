@@ -3497,11 +3497,44 @@ input[type="date"] {
         margin-left: -30px;
     }
 }
+.eventDiv{
+    cursor: pointer;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-size: 65%;
+}
+.todayBack{
+    background: yellow;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+}
 
+.propsalBack{
+    background: rgb(0, 124, 10);
+    color: white;
+    border: 1px solid white;
+}
+.caledarImage{
+    width: 20px;
+    margin-right: 3px;
+}
+.pastGameBack{
+    background: rgb(173, 105, 16);
+    color: rgb(219, 219, 219);
+    border: 1px solid white;
+}
 #proposalsCaldendarDiv{
     height: 60vh;
     width: 100%;
     background: #cacaca;
     margin-bottom: 20px;
     padding: 5px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .caledarImage{
+        width: 10px; 
+    }
 }

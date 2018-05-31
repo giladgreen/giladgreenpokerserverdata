@@ -183,16 +183,11 @@ button.rbc-input::-moz-focus-inner {
 }
 .rbc-event {
   cursor: pointer;
-  padding: 2px 5px;
-  height: 22px;
   margin-top:-5px;
-  background-color: rgb(4, 59, 4);
-  border-radius: 4px;
-  color: #fff;
-  font-size: 65%;
+  background-color: transparent;
 }
 .rbc-event.rbc-selected {
-  background-color: #265985;
+  background-color: transparent;
 }
 .rbc-event-label {
   font-size: 70%;
@@ -627,11 +622,7 @@ button.rbc-input::-moz-focus-inner {
 @media screen and (max-width: 500px) {
   .rbc-event {
     cursor: pointer;
-    padding: 2px 5px;
-    background-color: rgb(10, 97, 10);
-    border-radius: 3px;
     margin-top:-6px;
-    color: #fff;
-   font-size: 50%;
+   font-size: 40%;
   }
 }
