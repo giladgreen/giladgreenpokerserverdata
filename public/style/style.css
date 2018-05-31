@@ -3497,3 +3497,11 @@ input[type="date"] {
         margin-left: -30px;
     }
 }
+
+#proposalsCaldendarDiv{
+    height: 60vh;
+    width: 100%;
+    background: #cacaca;
+    margin-bottom: 20px;
+    padding: 5px;
+}
