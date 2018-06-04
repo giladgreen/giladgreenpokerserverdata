@@ -2366,8 +2366,66 @@ header {
 #background2Image{
     background-image: url('../img/background2.jpg');
 }
-
-
+#origBackground1Image{
+    background-image: url('../img/orig/orig1.jpg');
+}
+#origBackground2Image{
+    background-image: url('../img/orig/orig2.jpg');
+}
+#origBackground3Image{
+    background-image: url('../img/orig/orig3.jpg');
+}
+#origBackground4Image{
+    background-image: url('../img/orig/orig4.jpg');
+}
+#origBackground5Image{
+    background-image: url('../img/orig/orig5.jpg');
+}
+#origBackground6Image{
+    background-image: url('../img/orig/orig6.jpg');
+}
+#origBackground7Image{
+    background-image: url('../img/orig/orig7.jpg');
+}
+#origBackground8Image{
+    background-image: url('../img/orig/orig8.jpg');
+}
+#origBackground9Image{
+    background-image: url('../img/orig/orig9.jpg');
+}
+#origBackground10Image{
+    background-image: url('../img/orig/orig10.jpg');
+}
+#origBackground11Image{
+    background-image: url('../img/orig/orig11.jpg');
+}
+#origBackground12Image{
+    background-image: url('../img/orig/orig12.jpg');
+}
+#origBackground13Image{
+    background-image: url('../img/orig/orig13.jpg');
+}
+#origBackground14Image{
+    background-image: url('../img/orig/orig14.jpg');
+}
+#origBackground15Image{
+    background-image: url('../img/orig/orig15.jpg');
+}
+#origBackground16Image{
+    background-image: url('../img/orig/orig16.jpg');
+}
+#origBackground17Image{
+    background-image: url('../img/orig/orig17.jpg');
+}
+#origBackground18Image{
+    background-image: url('../img/orig/orig18.jpg');
+}
+#origBackground19Image{
+    background-image: url('../img/orig/orig19.jpg');
+}
+#origBackground20Image{
+    background-image: url('../img/orig/orig20.jpg');
+}
 .owl-theme .owl-nav {
     opacity: 0;
     -webkit-transition: 0.2s opacity;
