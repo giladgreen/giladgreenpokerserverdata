@@ -3504,9 +3504,10 @@ input[type="date"] {
     font-size: 65%;
 }
 .logeventDiv{
-    padding: 5px 5px;
+    padding: 4px 4px;
     border-radius: 4px;
     font-size: 67%;
+    font-weight: bold;
 }
 .todayBack{
     background: yellow;
