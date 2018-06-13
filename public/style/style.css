@@ -3506,9 +3506,7 @@ input[type="date"] {
 .logeventDiv{
     padding-top: 0px;;
     padding-left: 22px;;
-   
     font-weight: bold;
-   color:black;
 }
 .todayBack{
     background: yellow;
@@ -3559,6 +3557,11 @@ input[type="date"] {
     }
     .caledarSmallerImage{
         width: 9px;
+    }
+    .logeventDiv{
+        padding-top: -2px;
+        padding-left: 14px;
+       
     }
 }
 .googleLoginButton{
