@@ -3504,10 +3504,11 @@ input[type="date"] {
     font-size: 65%;
 }
 .logeventDiv{
-    padding: 4px 4px;
-    border-radius: 4px;
-    font-size: 67%;
+    padding-top: 0px;;
+    padding-left: 22px;;
+   
     font-weight: bold;
+   color:black;
 }
 .todayBack{
     background: yellow;
@@ -3524,7 +3525,11 @@ input[type="date"] {
 
 .caledarImage{
     width: 20px;
-    margin-right: 3px;
+    margin-right: 1px;
+}
+.caledarSmallerImage{
+    width: 15px;
+    margin-right: 1px;
 }
 .pastGameBack{
     background: rgb(173, 105, 16);
@@ -3539,7 +3544,7 @@ input[type="date"] {
     padding: 5px;
 }
 #LoginInfoCaldendarDiv{
-    height: 200vh;
+    height: 230vh;
     width: 100%;
     background: #cacaca;
     margin-bottom: 20px;
@@ -3550,7 +3555,10 @@ input[type="date"] {
 
 @media screen and (max-width: 500px) {
     .caledarImage{
-        width: 10px; 
+        width: 13px; 
+    }
+    .caledarSmallerImage{
+        width: 9px;
     }
 }
 .googleLoginButton{
