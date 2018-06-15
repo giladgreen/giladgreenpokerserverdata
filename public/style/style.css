@@ -2378,7 +2378,7 @@ header {
     background-image: url('../img/orig/orig1.jpg');  
     background-size: 100vw 100vh;
 
-    animation: chnageBackImage 20s infinite;
+    animation: chnageBackImage 100s infinite;
 }
 
 @keyframes chnageBackImage {
