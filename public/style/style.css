@@ -1174,15 +1174,8 @@ header {
 .thick-border{
     border: solid 1px black;
 }
-.guestCountButton{
-    height: 42px;
-}
-.plusOneLeftMargin{
-    margin-left: -30px;
-}
-.disabledMnusButton{
-    color: #cacaca;
-}
+
+
 .marginTop{
      margin-top:40px;
 }
@@ -3514,28 +3507,121 @@ input[type="date"] {
     background: #6397FF;
 }
 .proposalSmallImage{
-    max-height: 33px;
-    margin-right:6px; 
-    margin-bottom:4px; 
+    width: 33px;
+    height: 38px;
+    border-radius: 50%;
+    margin-left:10px;
+    margin-right:5px;
+    margin-bottom:5px;
 }
+
 .mobileProposalItem{
+   
     color: black;
-    background: #C3C3C3;
-    border: 1px solid #6397FF;
-    border-radius: 5px;
-    padding-left:30px;
-    padding-top: 8px;
-    margin-bottom: 20px;
-    margin-left: -8px;
-    margin-right: -8px;
+    background: #FFFFFF;
+    margin-left: -15px;
+    width:101vw;
+    padding-left:20px;
+    padding-top: 50px;
+    padding-top: 10px;
+    margin-bottom: 20px; 
+    border: 1px solid black;
+}
+.mobileProposalItem .svg-icon{
+    display: inline-flex;
+    font-size: 0;
+    position: relative;
+    align-self: center;
+    vertical-align: middle!important;
+ }
+ .proposalCardIcon{
+     font-size: 2.4em;
+     color:rgb(167, 167, 167);
+     margin-top: 20px;
+     margin-left: 10px;
+ }
+ .mapMarkerIcon{
+    margin-left: 15px;
+    margin-top: 10px;
+ }
+ .gameLocation{
+     margin-top:25px;
+     margin-bottom:25px;
+ }
+ .smallMarginRight{
+     margin-right: 10px;
+ }
+ .proposalFont{
+    font-family: "Graphik Meetup","-apple-system","BlinkMacSystemFont","Roboto","Helvetica","Arial","sans-serif";
+    font-size: 1rem;
+    line-height: 1.45;
+}
+.proposalMediumFont{
+    font-size: 1.1em;
+}
+.proposalBigFont{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.attendeesHeaders{
+    font-size: 1.4em;
+}
+.dateHeader{
+    color: #959DA2;
+}
+.groupNameHeader{
+    color:#2E3E48;
+}
+.hostNameAndImage{
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+.greyText{
+    color: #959DA2;
+}
+.boldGreyText{
+    color: #35444E;
+    font-weight: bold;
+}
+.blueText{
+    color: #13A9CB;
 }
 .attendeeDiv{
     padding-left:10px;
     color: rgb(53, 53, 53);
 }
-.proposalMap{
-    max-width: 200px;
+
+.EventGoingStatusButton{
+    height: 33px;
+    border: 1px solid #F0F1F2;
+    border-radius: 4px;
+    width: 28vw;
+    margin: 5px;
 }
+.EventGoingStatusButtonSelected{
+    background: #00A2C7;
+    color: white;
+}
+.EventGoingStatusButtonUnSelected{
+    background: #FFFFFF;
+    color: black;
+}
+.locationGoogleMap{
+    width: 100vw;
+    height: 80vw;
+}
+.proposalMap{
+    width: 105vw;
+    margin-left: -20px;    
+}
+.proposalHostImage{
+    border-radius: 50%;
+    width: 39px;
+    height: 47px;
+    margin-top:12px;
+    margin-left:6px;
+}
+
 
 @media screen and (max-width: 500px) {
     .bNumberInput{
@@ -3575,13 +3661,7 @@ input[type="date"] {
     .OpColumn    {
         max-width:15vw;
     }
-    .proposalHostImage{
-        width: 30px;
-        
-    }
-    .proposalMap{
-        visibility:collapse;
-    }
+   
     #proposalsTable .card.host {
         width: 30px;
     }
@@ -3668,4 +3748,50 @@ input[type="date"] {
     position: relative;
    
     left:30%;
+}
+.newCommentDiv{
+    width:98vw;
+}
+.newCommentTextInput{
+    width:107%;
+
+}
+.newCommentAddButton{
+    margin-top:3px;
+    margin-left:3px;
+    width:100%;
+}
+
+.guestInputDiv{
+    color: black;
+    background: white;
+    border: 1px solid rgb(43, 43, 43);
+    border-radius: 3px;
+    position: relative;
+    width:98vw;
+}
+.guestInputInput{
+    color: black;
+    background: white;
+    background-color: white;
+    outline:none;
+    border: none;
+    z-index: 6;
+    position: relative;
+    left:0;
+}
+.hidden{
+    visibility: hidden;
+}
+.collapse{
+    visibility: collapse;
+}
+
+.plusMinusOneButton{
+    border:none;
+    outline:none;
+    background: transparent;
+    color: black;
+    margin-top: 3px;
+    font-size: 125%;
 }
