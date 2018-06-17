@@ -3515,7 +3515,7 @@ input[type="date"] {
     margin-bottom:5px;
 }
 
-.mobileProposalItem{
+.responsiveProposalItem{
    
     color: black;
     background: #FFFFFF;
@@ -3527,7 +3527,7 @@ input[type="date"] {
     margin-bottom: 20px; 
     border: 1px solid black;
 }
-.mobileProposalItem .svg-icon{
+.responsiveProposalItem .svg-icon{
     display: inline-flex;
     font-size: 0;
     position: relative;
@@ -3595,7 +3595,7 @@ input[type="date"] {
     height: 33px;
     border: 1px solid #F0F1F2;
     border-radius: 4px;
-    width: 28vw;
+    width: 25%;
     margin: 5px;
 }
 .EventGoingStatusButtonSelected{
