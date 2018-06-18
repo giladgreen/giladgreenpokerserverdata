@@ -3771,7 +3771,7 @@ input[type="date"] {
     border: 1px solid rgb(80, 80, 80);
     border-radius: 4px;
     position: relative;
-    width:72vw;
+    width:80vw;
     padding-right: 20px;
 }
 .guestInputInput{
