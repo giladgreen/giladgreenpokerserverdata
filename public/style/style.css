@@ -3516,16 +3516,15 @@ input[type="date"] {
 }
 
 .responsiveProposalItem{
-   
     color: black;
     background: #FFFFFF;
-    margin-left: -15px;
-    width:101vw;
-    padding-left:20px;
+    margin-left: -18px;
+    width:102vw;
+    padding-left:22px;
     padding-top: 50px;
     padding-top: 10px;
     margin-bottom: 20px; 
-    border: 1px solid black;
+    border-bottom: 1px solid black;
 }
 .responsiveProposalItem .svg-icon{
     display: inline-flex;
@@ -3644,8 +3643,11 @@ input[type="date"] {
         padding: 10px;
      }
     #newProposalDiv{
-       margin:1vw;
+        margin:1vw;
         padding: 13px;
+        width:98vw;
+     }
+     .newProposalTimeInput{
         width:80vw;
      }
     
@@ -3763,12 +3765,14 @@ input[type="date"] {
 }
 
 .guestInputDiv{
+    margin-left: 5px;
     color: black;
     background: white;
-    border: 1px solid rgb(43, 43, 43);
-    border-radius: 3px;
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 4px;
     position: relative;
-    width:98vw;
+    width:72vw;
+    padding-right: 20px;
 }
 .guestInputInput{
     color: black;
@@ -3780,8 +3784,9 @@ input[type="date"] {
     position: relative;
     left:0;
 }
-.hidden{
-    visibility: hidden;
+.hiddenElemnt{
+    opacity: 0.1;
+    height:67px;
 }
 .collapse{
     visibility: collapse;
@@ -3794,4 +3799,9 @@ input[type="date"] {
     color: black;
     margin-top: 3px;
     font-size: 125%;
+}
+.deleteCommentButton{
+    color: red;
+    font-weight: bold;
+    margin-left: 10px;
 }
