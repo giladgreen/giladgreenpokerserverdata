@@ -3510,7 +3510,7 @@ input[type="date"] {
     width: 40px;
     height: 48px;
     border-radius: 50%;
-    margin-left:40%;
+    margin-left:30%;
     margin-bottom:5px;
 }
 
@@ -3831,7 +3831,8 @@ input[type="date"] {
         margin-left: 1px;  
         border: 1px solid rgb(146, 146, 146);
         width:82%;
-        padding-right: 20px;
+        padding-left: -2px;
+        padding-right: 5px;
     }
     .guestInputInput{
         width:50px;
