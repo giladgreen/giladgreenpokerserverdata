@@ -3824,7 +3824,13 @@ input[type="date"] {
     margin-left: 10px;
 }
 
-
+#gameOverDiv{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top:35%;
+    text-align: center;
+}
 
 @media screen and (max-width: 500px) {
     .guestInputDiv{
