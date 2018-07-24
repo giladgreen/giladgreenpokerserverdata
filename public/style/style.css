@@ -3831,7 +3831,13 @@ input[type="date"] {
     top:35%;
     text-align: center;
 }
-
+.playerBestRunDiv{
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
 @media screen and (max-width: 500px) {
     .guestInputDiv{
         margin-left: 1px;  
