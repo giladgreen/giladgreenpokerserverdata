@@ -3607,8 +3607,8 @@ input[type="date"] {
 }
 .locationGoogleMap{
     margin-top:20px;
-    width: 120vw;
-    margin-left: -10vw; 
+    width: 80vw;
+    margin-left: 0vw; 
     height: 330px;
 }
 .proposalMap{
@@ -3692,6 +3692,8 @@ input[type="date"] {
     .locationGoogleMap{
         margin-top:0;
         height: 280px;
+        width: 120vw;
+        margin-left: -10vw;
     }
 
 }
