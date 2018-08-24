@@ -9,7 +9,7 @@ Colors:
 	Dark      : #FCFCFF
 	Grey 		  : #F4F4F4 #FAFAFA #EEE
 
-Fonts: Montserrat Varela Round
+
 
 Table OF Contents
 ------------------------------------
@@ -95,7 +95,7 @@ body {
     margin-top: 40px;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: sans-serif;
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 20px;
