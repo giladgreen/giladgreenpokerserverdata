@@ -9,7 +9,7 @@ Colors:
 	Dark      : #FCFCFF
 	Grey 		  : #F4F4F4 #FAFAFA #EEE
 
-Fonts: Montserrat Varela Round
+
 
 Table OF Contents
 ------------------------------------
@@ -95,7 +95,7 @@ body {
     margin-top: 40px;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: sans-serif;
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 20px;
@@ -1377,6 +1377,7 @@ header {
     padding: 40px 20px;
     border: 1px solid #EEE;
     margin: 15px 0px;
+    height: 35vh;
 }
 
 .about i {
@@ -2366,6 +2367,7 @@ header {
 }
 
 
+<<<<<<< HEAD
 #origBackgroundImage{
     background: black;
     background-image: url('../img/orig/orig1.jpg');  
@@ -2373,6 +2375,8 @@ header {
 
     animation: chnageBackImage 100s infinite;
 }
+=======
+>>>>>>> f70bbaa9442fb489a6e3b8e98197a6c57f158255
 
 @keyframes chnageBackImage {
     0% {
@@ -2437,25 +2441,21 @@ header {
     }
     88% {
         background-image: url('../img/orig/orig20.jpg');
+<<<<<<< HEAD
     }
     94% {
         background-image: url('../img/orig/orig21.jpg');
     }
     100% {
         background-image: url('../img/orig/orig1.jpg');
+=======
+>>>>>>> f70bbaa9442fb489a6e3b8e98197a6c57f158255
     }
-}
-@media screen and (max-width: 500px) {
-    #origBackgroundImage{
-        background-image: url('../img/background1.jpg');   
-        animation-duration: 200s;
-        animation-name: chnageBackImage;
+    94% {
+        background-image: url('../img/orig/orig21.jpg');
     }
-
-    @keyframes chnageBackImage {
-        100% {
-            background-image: url('../img/background1.jpg');   
-        }
+    100% {
+        background-image: url('../img/orig/orig1.jpg');
     }
 }
 
@@ -2965,6 +2965,7 @@ input[type="date"] {
    
     font-weight: 900;
 }
+
 .gameGraphLineChart{
     margin-left: -10px;
 }
@@ -3606,8 +3607,13 @@ input[type="date"] {
 }
 .locationGoogleMap{
     margin-top:20px;
+<<<<<<< HEAD
     width: 120vw;
     margin-left: -10vw; 
+=======
+    width: 80vw;
+    margin-left: 0vw; 
+>>>>>>> f70bbaa9442fb489a6e3b8e98197a6c57f158255
     height: 330px;
 }
 .proposalMap{
@@ -3691,6 +3697,11 @@ input[type="date"] {
     .locationGoogleMap{
         margin-top:0;
         height: 280px;
+<<<<<<< HEAD
+=======
+        width: 120vw;
+        margin-left: -10vw;
+>>>>>>> f70bbaa9442fb489a6e3b8e98197a6c57f158255
     }
 
 }
@@ -3831,7 +3842,17 @@ input[type="date"] {
     top:35%;
     text-align: center;
 }
+<<<<<<< HEAD
 
+=======
+.playerBestRunDiv{
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+>>>>>>> f70bbaa9442fb489a6e3b8e98197a6c57f158255
 @media screen and (max-width: 500px) {
     .guestInputDiv{
         margin-left: 1px;  
