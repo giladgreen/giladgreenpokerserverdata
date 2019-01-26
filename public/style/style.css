@@ -1174,15 +1174,8 @@ header {
 .thick-border{
     border: solid 1px black;
 }
-.guestCountButton{
-    height: 42px;
-}
-.plusOneLeftMargin{
-    margin-left: -30px;
-}
-.disabledMnusButton{
-    color: #cacaca;
-}
+
+
 .marginTop{
      margin-top:40px;
 }
@@ -2367,71 +2360,86 @@ header {
     background-image: url('../img/background2.jpg');
 }
 
+#dummy {
+    display: none; 
+    background-image: url('../img/orig/orig1.jpg'),   url('../img/orig/orig2.jpg'),url('../img/orig/orig3.jpg'),url('../img/orig/orig4.jpg'), url('../img/orig/orig5.jpg'),url('../img/orig/orig6.jpg'),url('../img/orig/orig7.jpg'),url('../img/orig/orig8.jpg'), url('../img/orig/orig9.jpg'), url('../img/orig/orig10.jpg'),url('../img/orig/orig11.jpg'),url('../img/orig/orig12.jpg'), url('../img/orig/orig13.jpg'),url('../img/orig/orig14.jpg'),url('../img/orig/orig15.jpg'), url('../img/orig/orig16.jpg'),url('../img/orig/orig17.jpg'),url('../img/orig/orig18.jpg'), url('../img/orig/orig19.jpg');
+}
 
 
 #origBackgroundImage{
-    background-image: url('../img/orig/orig1.jpg');   
-    animation-duration: 90s;
-    animation-name: chnageBackImage;
+    background: black;
+    background-image: url('../img/orig/orig1.jpg');  
+    background-size: 100vw 100vh;
+
+    animation: chnageBackImage 100s infinite;
 }
 
 @keyframes chnageBackImage {
+    0% {
+        background-image: url('../img/orig/orig1.jpg');   
+    }
     5% {
         background-image: url('../img/orig/orig1.jpg');   
     }
     10% {
         background-image: url('../img/orig/orig2.jpg');
     }
-    15% {
+    17% {
         background-image: url('../img/orig/orig3.jpg');
     }
     20% {
         background-image: url('../img/orig/orig4.jpg');
     }
-    25% {
+    24% {
         background-image: url('../img/orig/orig5.jpg');
     }
-    30% {
+    27% {
         background-image: url('../img/orig/orig6.jpg');
     }
-    35% {
+    31% {
         background-image: url('../img/orig/orig7.jpg');
     }
-    40% {
+    38% {
         background-image: url('../img/orig/orig8.jpg');
     }
-    45% {
+    42% {
         background-image: url('../img/orig/orig9.jpg');
     }
-    50% {
+    48% {
         background-image: url('../img/orig/orig10.jpg');
     }
-    55% {
+    52% {
         background-image: url('../img/orig/orig11.jpg');
     }
-    60% {
+    56% {
         background-image: url('../img/orig/orig12.jpg');
     }
-    65% {
+    60% {
         background-image: url('../img/orig/orig13.jpg');
     }
-    70% {
+    64% {
         background-image: url('../img/orig/orig14.jpg');
     }
-    75% {
+    68% {
         background-image: url('../img/orig/orig15.jpg');
     }
-    80% {
+    71% {
         background-image: url('../img/orig/orig16.jpg');
     }
-    85% {
+    75% {
         background-image: url('../img/orig/orig17.jpg');
     }
-    90% {
+    79% {
         background-image: url('../img/orig/orig18.jpg');
     }
-    95% {
+    84% {
         background-image: url('../img/orig/orig19.jpg');
+    }
+    88% {
+        background-image: url('../img/orig/orig20.jpg');
+    }
+    94% {
+        background-image: url('../img/orig/orig21.jpg');
     }
     100% {
         background-image: url('../img/orig/orig1.jpg');
@@ -3499,30 +3507,133 @@ input[type="date"] {
     background: #6397FF;
 }
 .proposalSmallImage{
-    max-height: 33px;
-    margin-right:6px; 
-    margin-bottom:4px; 
+    width: 40px;
+    height: 48px;
+    border-radius: 50%;
+    margin-left:30%;
+    margin-bottom:5px;
 }
-.mobileProposalItem{
+
+.responsiveProposalItem{
     color: black;
-    background: #C3C3C3;
-    border: 1px solid #6397FF;
-    border-radius: 5px;
-    padding-left:30px;
-    padding-top: 8px;
-    margin-bottom: 20px;
-    margin-left: -8px;
-    margin-right: -8px;
+    background: #FFFFFF;
+    margin-left: -18px;
+    width:102vw;
+    padding-left:22px;
+    padding-top: 50px;
+    padding-top: 10px;
+    margin-bottom: 20px; 
+    border-bottom: 1px solid black;
+}
+.responsiveProposalItem .svg-icon{
+    display: inline-flex;
+    font-size: 0;
+    position: relative;
+    align-self: center;
+    vertical-align: middle!important;
+ }
+ .proposalCardIcon{
+     font-size: 2.4em;
+     color:rgb(167, 167, 167);
+     margin-top: 20px;
+     margin-left: 10px;
+ }
+ .mapMarkerIcon{
+    margin-left: 15px;
+    margin-top: 10px;
+ }
+ .gameLocation{
+     margin-top:25px;
+     margin-bottom:25px;
+ }
+ .smallMarginRight{
+     margin-right: 10px;
+ }
+ .proposalFont{
+    font-family: "Graphik Meetup","-apple-system","BlinkMacSystemFont","Roboto","Helvetica","Arial","sans-serif";
+    font-size: 1rem;
+    line-height: 1.45;
+}
+.proposalMediumFont{
+    font-size: 1.1em;
+}
+.proposalBigFont{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.attendeesHeaders{
+    font-size: 1.4em;
+}
+.dateHeader{
+    color: #959DA2;
+}
+.groupNameHeader{
+    color:#2E3E48;
+}
+.hostNameAndImage{
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+.greyText{
+    color: #959DA2;
+}
+.boldGreyText{
+    color: #35444E;
+    font-weight: bold;
+}
+.blueText{
+    color: #13A9CB;
 }
 .attendeeDiv{
     padding-left:10px;
     color: rgb(53, 53, 53);
 }
+
+.EventGoingStatusButton{
+    height: 33px;
+    border: 1px solid #F0F1F2;
+    border-radius: 4px;
+    width: 25%;
+    margin: 5px;
+}
+.EventGoingStatusButtonSelected{
+    background: #00A2C7;
+    color: white;
+}
+.EventGoingStatusButtonUnSelected{
+    background: #FFFFFF;
+    color: black;
+}
+.locationGoogleMap{
+    margin-top:20px;
+    width: 120vw;
+    margin-left: -10vw; 
+    height: 330px;
+}
 .proposalMap{
-    max-width: 200px;
+    width: 100%; 
+    height: 100%;  
+}
+.proposalHostImage{
+    border-radius: 50%;
+    width: 39px;
+    height: 47px;
+    margin-top:12px;
+    margin-left:6px;
 }
 
+
 @media screen and (max-width: 500px) {
+
+    .proposalSmallImage{
+        width: 33px;
+        height: 38px;
+        border-radius: 50%;
+        margin-left:10px;
+        margin-right:5px;
+        margin-bottom:5px;
+    }
+
     .bNumberInput{
         min-width: 48px;
         max-width: 48px;
@@ -3543,8 +3654,11 @@ input[type="date"] {
         padding: 10px;
      }
     #newProposalDiv{
-       margin:1vw;
+        margin:1vw;
         padding: 13px;
+        width:98vw;
+     }
+     .newProposalTimeInput{
         width:80vw;
      }
     
@@ -3560,13 +3674,7 @@ input[type="date"] {
     .OpColumn    {
         max-width:15vw;
     }
-    .proposalHostImage{
-        width: 30px;
-        
-    }
-    .proposalMap{
-        visibility:collapse;
-    }
+   
     #proposalsTable .card.host {
         width: 30px;
     }
@@ -3579,12 +3687,23 @@ input[type="date"] {
     .InputLeftMargin{
         margin-left: -30px;
     }
+
+    .locationGoogleMap{
+        margin-top:0;
+        height: 280px;
+    }
+
 }
 .eventDiv{
     cursor: pointer;
     padding: 2px 5px;
     border-radius: 4px;
     font-size: 65%;
+}
+.logeventDiv{
+    padding-top: 0px;;
+    padding-left: 22px;;
+    font-weight: bold;
 }
 .todayBack{
     background: yellow;
@@ -3598,9 +3717,14 @@ input[type="date"] {
     color: white;
     border: 1px solid white;
 }
+
 .caledarImage{
     width: 20px;
-    margin-right: 3px;
+    margin-right: 1px;
+}
+.caledarSmallerImage{
+    width: 15px;
+    margin-right: 1px;
 }
 .pastGameBack{
     background: rgb(173, 105, 16);
@@ -3614,11 +3738,27 @@ input[type="date"] {
     margin-bottom: 20px;
     padding: 5px;
 }
+#LoginInfoCaldendarDiv{
+    height: 230vh;
+    width: 100%;
+    background: #cacaca;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
 
 
 @media screen and (max-width: 500px) {
     .caledarImage{
-        width: 10px; 
+        width: 13px; 
+    }
+    .caledarSmallerImage{
+        width: 9px;
+    }
+    .logeventDiv{
+        padding-top: -2px;
+        padding-left: 14px;
+       
     }
 }
 .googleLoginButton{
@@ -3627,4 +3767,80 @@ input[type="date"] {
     position: relative;
    
     left:30%;
+}
+.newCommentDiv{
+    width:98vw;
+}
+.newCommentTextInput{
+    width:107%;
+
+}
+.newCommentAddButton{
+    margin-top:3px;
+    margin-left:3px;
+    width:100%;
+}
+
+.guestInputDiv{
+    margin-left: 5px;
+    color: black;
+    background: white;
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 4px;
+    position: relative;
+    width:77%;
+    padding-right: 5px;
+}
+.guestInputInput{
+    color: black;
+    background: white;
+    background-color: white;
+    outline:none;
+    border: none;
+    z-index: 6;
+    position: relative;
+    left:0;
+    width:50px;
+}
+.hiddenElemnt{
+    opacity: 0.1;
+    height:67px;
+}
+.collapse{
+    visibility: collapse;
+}
+
+.plusMinusOneButton{
+    border:none;
+    outline:none;
+    background: transparent;
+    color: black;
+    margin-top: 3px;
+    font-size: 125%;
+}
+.deleteCommentButton{
+    color: red;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#gameOverDiv{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top:35%;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .guestInputDiv{
+        margin-left: 1px;  
+        border: 1px solid rgb(146, 146, 146);
+        width:82%;
+        padding-left: -2px;
+        padding-right: 5px;
+    }
+    .guestInputInput{
+        width:50px;
+    }
 }
