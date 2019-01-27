@@ -2525,6 +2525,7 @@ header {
     background-color: rgba(247, 255, 176, 0.685);
     margin: 15px 0px;
     color: black;
+    height: 70px;
 }
 #sqlError{
     color: red;
@@ -2534,13 +2535,15 @@ header {
 }
 #sqlTable{
     color: rgb(39, 39, 39);
+    margin-top: 30px;
+    margin-left:-100px;
    
-    margin: 0px 40px;
 }
 .sqlTableHeader{
     font-weight: bold;
 }
-#sqlTable.td{
+#sqlTable td{
+    border: 1px solid black;
     padding:5px;
 }
 
