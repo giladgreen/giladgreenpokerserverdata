@@ -2520,6 +2520,29 @@ header {
     background-color: #FFF;
     z-index: 99999;
 }
+#sqlQueryInput{
+    border: 2px solid black;
+    background-color: rgba(247, 255, 176, 0.685);
+    margin: 15px 0px;
+    color: black;
+}
+#sqlError{
+    color: red;
+    font-weight: bold;
+    font-size: 150%;
+    margin: 0px 40px;
+}
+#sqlTable{
+    color: rgb(39, 39, 39);
+   
+    margin: 0px 40px;
+}
+.sqlTableHeader{
+    font-weight: bold;
+}
+#sqlTable.td{
+    padding:5px;
+}
 
 .preloader,.loader {
     position: absolute;
