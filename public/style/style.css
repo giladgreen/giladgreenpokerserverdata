@@ -2970,6 +2970,13 @@ input[type="date"] {
 .biggerText{
     font-size: 130%;
 }
+#sql_examples{
+    color: rgb(19, 19, 19);
+}
+
+#sql_chemas{
+    color: rgb(29, 28, 39);
+}
 .smallTopMargin{
     margin-top: 10px;
 }
