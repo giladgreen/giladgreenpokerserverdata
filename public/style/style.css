@@ -2525,8 +2525,8 @@ header {
     background-color: rgba(247, 255, 176, 0.685);
     margin: 15px 0px;
     color: black;
-    height: 70px;
-    width: 500px;
+    
+    width: 80%;
 }
 .leftMargin{
     margin-left: 20px;
