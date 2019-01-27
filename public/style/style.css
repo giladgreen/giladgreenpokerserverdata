@@ -2534,17 +2534,21 @@ header {
     margin: 0px 40px;
 }
 #sqlTable{
-    color: rgb(39, 39, 39);
+  
     margin-top: 30px;
-    margin-left:-100px;
+    margin-left:-120px;
    
 }
 .sqlTableHeader{
     font-weight: bold;
-}
-#sqlTable td{
     border: 1px solid black;
-    padding:5px;
+    padding:10px;
+    color: rgb(39, 39, 39);
+}
+.sqlTableHeader, .sqlTableCell{
+    border: 1px solid black;
+    padding:10px;
+    color: rgb(65, 65, 65);
 }
 
 .preloader,.loader {
