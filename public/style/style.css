@@ -2527,17 +2527,25 @@ header {
     color: black;
     height: 70px;
 }
+.leftMargin{
+    margin-left: 20px;
+}
 #sqlError{
     color: red;
     font-weight: bold;
     font-size: 150%;
     margin: 0px 40px;
 }
+#SqlPlayground{
+   position: absolute;
+   width:96%;
+   top:1vh;
+   left:2vw;
+   overflow-y: scroll;
+   overflow-x: scroll;
+}
 #sqlTable{
-  
     margin-top: 30px;
-   
-   
 }
 .sqlTableHeader{
     font-weight: bold;
