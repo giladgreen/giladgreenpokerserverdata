@@ -3377,6 +3377,11 @@ input[type="date"] {
     margin-top:-20px;
     margin-bottom:-10px;
 }
+.ActiveGameWrapperDivCircle{
+    position: absolute;
+    top: 10vh;
+    left:5vw;
+}
 .activeGameImage{
     border: 1px solid #CECECE;
     min-height: 40px;
