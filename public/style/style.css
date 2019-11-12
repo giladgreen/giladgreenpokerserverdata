@@ -758,21 +758,25 @@ header {
 
 
 .change-popup{
-    width: 60vw;
-    height: 80vh;
+    width: 70vw;
+    height: 60vh;
     position: absolute;
     top: 0vh;
     left: 0vw;
     background: #2b542c;
     color: white;
-    font-size: 4em;
+    font-size: 6em;
 
     border: 5px solid white;
     border-radius: 30px;
 }
 
 .popupImage{
+    padding-top: 20px;
+    padding-left: 10px;
     width: 100%;
+    border: 1px solid transparent;
+    border-radius: 50%;
 }
 /*------------------------------------*\
 	Existing Groups
