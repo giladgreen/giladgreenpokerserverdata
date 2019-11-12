@@ -761,8 +761,8 @@ header {
     width: 60vw;
     height: 80vh;
     position: absolute;
-    top: 10vh;
-    left: 20vw;
+    top: 0vh;
+    left: 0vw;
     background: #2b542c;
     color: white;
     font-size: 4em;
